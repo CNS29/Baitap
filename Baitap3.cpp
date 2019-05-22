@@ -109,7 +109,7 @@ void DeleteNode(TREE &t,int data)//data la gia tri node can xoa
 		}
 	}
 }
-void SearchNode(TREE t)
+void SearchNode(TREE t)//tim node co 2 con
 {
 	if(t != NULL)
 	{
@@ -194,7 +194,7 @@ bool SearchPrime(int x)//tim x co phai la so nguyen to hay khong
 		Prime(t->pRight);
 	}
 }*/
-int CountPrime(TREE t)//Tinh tong v‡ tim cac so nguyen to
+int CountPrime(TREE t)//Tinh tong v√† tim cac so nguyen to
 {
 	if(t!=NULL)
 	{
@@ -225,7 +225,7 @@ void Menu(TREE &t)
 		printf("\n5. Xuat du lieu cay LRN");
 		printf("\n6. Xoa 1 phan tu trong cay ");
 		printf("\n7. Xuat phan tu co 2 con ");
-		printf("\n8. Xuat tong so chan v‡ so le");
+		printf("\n8. Xuat tong so chan v√† so le");
 		printf("\n9. Xuat cac so nguyen to trong cay va tinh tong ");
 		printf("\n0. Ket thuc");
 		printf("\n\n\t\t ============================");
